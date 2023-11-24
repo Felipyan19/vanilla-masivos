@@ -40,6 +40,12 @@ function cargarPlantillas() {
         imgPlantilla.src = "https://i.ibb.co/ys42SsH/image.png"
         imagen = "https://i.ibb.co/CPmwmHW/Dibanka-superapp.jpg";
     }
+    if(selectPlantilla.value === "newapp"){
+        plantilla="newapp";
+        imgPlantilla.style.display = "block";
+        imgPlantilla.src = "https://i.ibb.co/t4dmCn5/Screenshot-4.png"
+        imagen = "";
+    }
 };
 
 function obtenerPlantilla() {
