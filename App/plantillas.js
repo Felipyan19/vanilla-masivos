@@ -34,11 +34,11 @@ function cargarPlantillas() {
     //     imagen = "https://i.ibb.co/tmMThds/pensionadosimg.jpg";
     // }
     console.log(selectPlantilla.value);
-    if(selectPlantilla.value === "superapp"){
-        plantilla="superapp";
+    if(selectPlantilla.value === "bienestar"){
+        plantilla="bienestar";
         imgPlantilla.style.display = "block";
-        imgPlantilla.src = "https://i.ibb.co/ys42SsH/image.png"
-        imagen = "https://i.ibb.co/CPmwmHW/Dibanka-superapp.jpg";
+        imgPlantilla.src = "https://i.ibb.co/fqzVVK0/Screenshot-5.png"
+        imagen = "";
     }
     if(selectPlantilla.value === "newapp"){
         plantilla="newapp";
