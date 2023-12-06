@@ -46,6 +46,12 @@ function cargarPlantillas() {
         imgPlantilla.src = "https://i.ibb.co/t4dmCn5/Screenshot-4.png"
         imagen = "";
     }
+     if(selectPlantilla.value === "masivolive"){
+        plantilla="masivolive";
+        imgPlantilla.style.display = "block";
+        imgPlantilla.src = "https://i.ibb.co/LCF7qLd/Piezalive-Unisanitas.jpg"
+        imagen = "https://i.ibb.co/LCF7qLd/Piezalive-Unisanitas.jpg";
+    }
 };
 
 function obtenerPlantilla() {
