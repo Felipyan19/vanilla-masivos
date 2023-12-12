@@ -106,17 +106,17 @@ async function enviarRegistros(plantilla, imagen, user) {
                     const Fecha = response1.fecha;
                     // Enviar a Google Sheets y esperar la respuesta
                     
-                    const response2 = await send_to_excel({
-                        estado,
-                        codigo,
-                        meta_id,
-                        Telefono,
-                        plantilla,
-                        user,
-                        Fecha,
-                        source:"DiBanka"
+                    // const response2 = await send_to_excel({
+                    //     estado,
+                    //     codigo,
+                    //     meta_id,
+                    //     Telefono,
+                    //     plantilla,
+                    //     user,
+                    //     Fecha,
+                    //     source:"DiBanka"
 
-                    });
+                    // });
 
                     console.log("Excel:", response2);
                     console.log("Meta:", response1);
