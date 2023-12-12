@@ -118,7 +118,7 @@ async function enviarRegistros(plantilla, imagen, user) {
 
                     // });
 
-                    console.log("Excel:", response2);
+                    // console.log("Excel:", response2);
                     console.log("Meta:", response1);
         
         
