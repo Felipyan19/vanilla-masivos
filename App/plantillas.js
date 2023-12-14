@@ -16,7 +16,7 @@ function cargarPlantillas() {
     //     imgPlantilla.src = "https://i.ibb.co/YRscN44/Comunicado-invitacion.png"
     //     imagen = "https://i.ibb.co/YRscN44/Comunicado-invitacion.png";
     // }
-        if(selectPlantilla.value === "cuidado-enfemeria"){
+        if(selectPlantilla.value === "cuidado-enfermeria"){
         plantilla="cuidado";
         imgPlantilla.style.display = "block";
         imgPlantilla.src = "https://i.ibb.co/LdkVYWJ/INVITACI-N-Charla-Enfermer-a.jpg"
