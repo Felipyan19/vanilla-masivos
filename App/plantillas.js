@@ -10,11 +10,11 @@ function cargarPlantillas() {
     // const vectorJSON = vector.map((numero, posicion) => ({ numero, posicion, imagen: imagen, plantilla: plantilla }));
 
     // console.log(vectorJSON)
-    if(selectPlantilla.value === "admitidosvencidos"){
-        plantilla="admitidosvencidos";
+    if(selectPlantilla.value === "navidad"){
+        plantilla="navidad";
         imgPlantilla.style.display = "block";
-        imgPlantilla.src = "https://i.ibb.co/YRscN44/Comunicado-invitacion.png"
-        imagen = "https://i.ibb.co/YRscN44/Comunicado-invitacion.png";
+        imgPlantilla.src = "https://i.ibb.co/8Brqc9Q/Tarjeta-navidad-afiliados-def.png"
+        imagen = "https://i.ibb.co/8Brqc9Q/Tarjeta-navidad-afiliados-def.png";
     }
         if(selectPlantilla.value === "cuidado-enfermeria"){
         plantilla="cuidado";
